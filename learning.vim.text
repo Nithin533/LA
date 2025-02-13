@@ -1,0 +1,17 @@
+q1)How d you change theee mode from edit to read-only?
+A1) press  "esc"
+
+Q2) How do u (a) Save theee file you are editing and (b) close theee file yore editing?
+A2)(a) to save press :wq
+   (b) to close press :q!
+
+Q3) how do u delete 
+   a) a letter : press "x"
+   b) a word    :  press "dw"
+   c)a sentense : press "d$"
+
+Q4) you are editing the document. explain how you will replace one word with another 
+ answer : press "R"
+ 
+to replce the word u have to type
+ :%s/the/theee/gc 
