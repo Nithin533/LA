@@ -2,7 +2,6 @@ mkdir -p /tmp/backup
 cp *.c *.py /tmp/backup
 cd /tmp 
 tar -czvf Backup-2025-03-28.tar.gz /backup
-gzip Backup-2025-03-28.tar
 udisksctl mount -b /dev/sda1
 mv Backup-2025-03-28.tar.gz /media/RVU/PenDrive/
 udisksctl unmount -b /dev/sda1
